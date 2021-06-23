@@ -28,7 +28,7 @@ h1{
 #con{
     font: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing: .5em;
+/*     letter-spacing: .5em; */
     top: 15%;
 }
 .coolTitle {

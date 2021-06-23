@@ -1,0 +1,95 @@
+body{
+  margin: 0px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h1{
+    font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black; 
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
+}
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+li {
+  color: #fff;
+  margin-left: 200px;
+}
+
+ p {
+  color:#482762;
+  margin-left: 200px;
+}
+
+button {
+  color: #fff; 
+  background: #a0829b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+.testingIt {
+  text-decoration-line: line-through;
+}
+
+.deleteButton {
+  background-color: #a0829b;
+  color: #fff;
+  border-radius: 30px
+  margin: 20px;
+}
+
+.done {
+  text-decoration: line-through #ff3c3c;
+}
+h3{
+  margin-top: 370px;
+  font-family: fantasy;
+  font-size: 3em;
+  border-top: 2px solid black;
+  border-left: 2px solid black; 
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  float: right;
+}
